@@ -20,6 +20,7 @@ export class AppComponent implements OnInit {
     .subscribe(
       (data) => { // Success
         this.productos = data['results'];
+        console.log(this.productos )
       },
       (error) => {
         console.error(error);
