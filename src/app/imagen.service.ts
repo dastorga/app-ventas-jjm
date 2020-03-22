@@ -12,6 +12,6 @@ export class ImagenService {
 
   // return what comes back from this http call
   getProducts() {
-    return this.http.get(`${this.apiUrl}?results=25`);
+    return this.http.get(`${this.apiUrl}?results=10`);
   }
 }

@@ -44,22 +44,21 @@
   <p>Busca aqui tus productos:</p>
   <div class="card-container">
 
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Yerba mate</mat-card-title>
+        <mat-card-subtitle>Playadito 500g</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://http2.mlstatic.com/yerba-mate-playadito-x-1kg-precio-x-mayor-merlo-D_NQ_NP_902186-MLA27548526555_062018-F.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          Yerba Mate Playadito. Elaborada con palo libre de gluten.
+        </p>
+      </mat-card-content>
+    </mat-card>
 
-    <div *ngFor='let producto of productos'>
-      <mat-card class="example-card">
-        <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Yerba mate</mat-card-title>
-          <mat-card-subtitle>Playadito 500g</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image [src]="producto.picture.medium" alt="Photo of a Shiba Inu">
-        <mat-card-content>
-          <p>
-            Yerba Mate Playadito. Elaborada con palo libre de gluten.
-          </p>
-        </mat-card-content>
-      </mat-card>
-    </div>
+
   </div>
 
 
